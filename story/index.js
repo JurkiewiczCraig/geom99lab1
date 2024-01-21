@@ -5,4 +5,11 @@ function initMap() {
   });
 }
 
+const marker = new AdvancedMarkerElement({
+    map,
+    position: { lat:  -26.83573722346998, lng: 152.9631237231287},   
+  });
+}
+
+
 window.initMap = initMap;
