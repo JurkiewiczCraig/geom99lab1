@@ -1,4 +1,4 @@
-@@ -1,16 +0,0 @@
+
 function initMap() {
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
   const map = new google.maps.Map(document.getElementById("map"), {
