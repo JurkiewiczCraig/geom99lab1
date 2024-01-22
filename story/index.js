@@ -26,7 +26,7 @@ async function initMap() {
       title: "Batt Reef",
     },
     {
-      position: { lat: -37.89838263906072,, lng: 145.31301015076852 },    
+      position: { lat: -37.89838263906072, lng: 145.31301015076852 },    
       title: "Upper FernTree Gully",
     },
     {
