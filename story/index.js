@@ -67,7 +67,23 @@ async function initMap() {
   });
 
 
+// a Marker for Steve Irwin's Wildlife Reserve
+  const park = document.createElement("div");
 
+  park.innerHTML = '<i class="fas fa-tree"></i>';  
+
+  const faPin3 = new PinElement({
+    glyph: park,
+    glyphColor: "#FFFFFF",
+    background: "#FFD514",
+    borderColor: "#ff8300",
+  });
+  const faMarker3 = new AdvancedMarkerElement({
+    map,
+    position: { lat: -12.376136610221534,   lng: 142.17760343955635     },    
+    content: faPin3.element,
+    title: "Steve Irwins Wildlife Reserve/Park",
+  });
 
   
 }
