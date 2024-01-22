@@ -32,7 +32,7 @@ async function initMap() {
 // a Marker for Steve Irwin's home town
   const city = document.createElement("div");
 
-  hospital.innerHTML = '<i class="fas fa-city"></i>';
+  city.innerHTML = '<i class="fas fa-city"></i>';
 
   const faPin1 = new PinElement({
     glyph: city,
