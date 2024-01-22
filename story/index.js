@@ -19,16 +19,37 @@ async function initMap() {
 
   const faPin = new PinElement({
     glyph: icon,
-    glyphColor: "#ff8300",
+    glyphColor: "#FFFFFF",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
   const faMarker = new AdvancedMarkerElement({
     map,
-    position: { lat: -26.248504845340236, lng:  132.72973669096814},  
+    position: { lat:-26.838493, lng: 152.959481},  
     content: faPin.element,
-    title: "A marker using a FontAwesome icon for the glyph.",
+    title: "Steve Irwin Monument",
   });
+// a Marker for Steve Irwin's home town
+  const city = document.createElement("div");
+
+  hospital.innerHTML = '<i class="fas fa-city"></i>';
+
+  const faPin1 = new PinElement({
+    glyph: city,
+    glyphColor: "#FFFFFF",
+    background: "#FFD514",
+    borderColor: "#ff8300",
+  });
+  const faMarker1 = new AdvancedMarkerElement({
+    map,
+    position: { lat:-37.89851809717057, lng: 145.31275265870013},     
+    content: faPi1n.element,
+    title: "Steve Irwin's Hometown",
+  });
+
+
+
+  
 }
 
 initMap();
