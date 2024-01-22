@@ -30,7 +30,7 @@ async function initMap() {
       title: "Upper FernTree Gully",
     },
     {
-      position: { lat: -12.37533068709093, , lng: 142.17720449182988 },   
+      position: { lat: -12.37533068709093,  lng: 142.17720449182988 },   
       title: "Steve Irwin Wildlife Reserve",
     },
   ];
