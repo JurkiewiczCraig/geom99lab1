@@ -66,14 +66,14 @@ const contentString1 =
     "(last visited June 22, 2009).</p>" +
     "</div>" +
     "</div>";
-  const infowindow = new google.maps.InfoWindow({
+  const infowindow1 = new google.maps.InfoWindow({
     content: contentString1,
     ariaLabel: "Australia Zoo",
   });
   const marker1 = new google.maps.Marker({
     position: { lat: -26.835804237163565, lng: 152.96313445196486 },
     map,
-    title: "Uluru (Ayers Rock)",
+    title: "Australia Zoo",
   });
     // Add a click listener for each marker, and set up the info window.
     marker.addListener("click", ({ domEvent, latLng }) => {
