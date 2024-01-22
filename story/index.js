@@ -14,7 +14,7 @@ async function initMap() {
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
     {
-      position: { lat: 34.8791806, lng: -111.8265049 },
+      position: { lat:  -26.835804237163565, lng: 152.96313445196486 },   
       title: "Australia Zoo",
     },
     {
