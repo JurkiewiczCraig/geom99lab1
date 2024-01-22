@@ -43,7 +43,7 @@ async function initMap() {
   const faMarker1 = new AdvancedMarkerElement({
     map,
     position: { lat:-37.89851809717057, lng: 145.31275265870013},     
-    content: faPi1n.element,
+    content: faPi1n1.element,
     title: "Steve Irwin's Hometown",
   });
 
