@@ -55,7 +55,7 @@ async function initMap() {
 
   const faPin2 = new PinElement({
     glyph: death,
-    glyphColor: "#FFFFFF",
+    glyphColor: "#000000",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
