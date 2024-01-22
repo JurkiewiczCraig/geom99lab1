@@ -71,7 +71,7 @@ const contentString1 =
     ariaLabel: "Australia Zoo",
   });
   const marker1 = new google.maps.Marker({
-    position: {-26.835804237163565, lng: 152.96313445196486 },
+    position: { lat: -26.835804237163565, lng: 152.96313445196486 },
     map,
     title: "Uluru (Ayers Rock)",
   });
