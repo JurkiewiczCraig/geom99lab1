@@ -82,6 +82,9 @@ const contentString1 =
       infoWindow.close();
       infoWindow.setContent(marker.title);
       infoWindow.open(marker.map, marker);
+      infoWindow1.close();
+      infoWindow1.setContent(marker.title);
+      infoWindow1.open(marker.map, marker);
     });
   });
 }
