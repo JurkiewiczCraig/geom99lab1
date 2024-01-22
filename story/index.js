@@ -13,10 +13,7 @@ async function initMap() {
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
-    {
-      position: { lat:  -26.835804237163565, lng: 152.96313445196486 },   
-      title: "Australia Zoo",
-    },
+  
     {
       position: { lat: -26.678056, lng: 153.118333 },
       title: "Steve Irwin Monument",
@@ -48,7 +45,7 @@ async function initMap() {
       title: `${i + 1}. ${title}`,
       content: pin.element,
     });
-const contentString =
+const contentString1 =
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
@@ -70,11 +67,11 @@ const contentString =
     "</div>" +
     "</div>";
   const infowindow = new google.maps.InfoWindow({
-    content: contentString,
-    ariaLabel: "Uluru",
+    content: contentString1,
+    ariaLabel: "Australia Zoo",
   });
   const marker1 = new google.maps.Marker({
-    position: {lat: -26.678056, lng: 153.118333 },
+    position: {-26.835804237163565, lng: 152.96313445196486 },
     map,
     title: "Uluru (Ayers Rock)",
   });
