@@ -5,8 +5,8 @@ async function initMap() {
     "marker",
   );
   const map = new Map(document.getElementById("map"), {
-    zoom: 12,
-    center: { lat: 34.84555, lng: -111.8035 },
+    zoom: 4,
+    center: { lat: -25.792046299019553, lng: 132.3348778563882 },    
     mapId: "4504f8b37365c3d0",
   });
   // Set LatLng and title text for the markers. The first marker (Boynton Pass)
@@ -15,23 +15,23 @@ async function initMap() {
   const tourStops = [
     {
       position: { lat: 34.8791806, lng: -111.8265049 },
-      title: "Boynton Pass",
+      title: "Australia Zoo",
     },
     {
-      position: { lat: 34.8559195, lng: -111.7988186 },
-      title: "Airport Mesa",
+      position: { lat: -26.678056, lng: 153.118333 },
+      title: "Steve Irwin Monument",
     },
     {
-      position: { lat: 34.832149, lng: -111.7695277 },
-      title: "Chapel of the Holy Cross",
+      position: { lat: -16.416235940808605, lng: 145.771535726202 },    
+      title: "Batt Reef",
     },
     {
-      position: { lat: 34.823736, lng: -111.8001857 },
-      title: "Red Rock Crossing",
+      position: { lat: -37.89838263906072,, lng: 145.31301015076852 },    
+      title: "Upper FernTree Gully",
     },
     {
-      position: { lat: 34.800326, lng: -111.7665047 },
-      title: "Bell Rock",
+      position: { lat: -12.37533068709093, , lng: 142.17720449182988 },   
+      title: "Steve Irwin Wildlife Reserve",
     },
   ];
   // Create an info window to share between markers.
