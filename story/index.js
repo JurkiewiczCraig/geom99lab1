@@ -75,6 +75,11 @@ const contentString1 =
     map,
     title: "Australia Zoo",
   });
+
+      const infowindow1 = new google.maps.InfoWindow({
+      content: contentString1,
+      ariaLabel: "Australia Zoo",
+    });
     // Add a click listener for each marker, and set up the info window.
     marker.addListener("click", ({ domEvent, latLng }) => {
       const { target } = domEvent;
@@ -82,8 +87,7 @@ const contentString1 =
       infoWindow.close();
       infoWindow.setContent(marker.title);
       infoWindow.open(marker.map, marker);
-      infowindow1.close();
-      infowindow1.setContent(marker.title);
+   infowindow1.close();
       infowindow1.open(marker.map, marker);
     });
   });
