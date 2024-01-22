@@ -85,6 +85,25 @@ async function initMap() {
     title: "Steve Irwins Wildlife Reserve/Park",
   });
 
+// a Marker for Australia Zoo
+  const zoo = document.createElement("div");
+
+  zoo.innerHTML = '<i class="fas fa-tree"></i>';  
+
+  const faPin4 = new PinElement({
+    glyph: zoo,
+    glyphColor: "#FFFFFF",
+    background: "#FFD514",
+    borderColor: "#ff8300",
+  });
+  const faMarker4 = new AdvancedMarkerElement({
+    map,
+    position: { lat:  -26.83582338392587,   lng:  152.9631773673096     },   
+      content: faPin4.element,
+    title: "Australia Zoo",
+  });
+
+
   
 }
 
