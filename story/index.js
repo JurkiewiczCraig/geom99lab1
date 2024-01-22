@@ -47,23 +47,7 @@ async function initMap() {
     title: "Steve Irwin's Hometown",
   });
 
-   // A marker using a Font Awesome icon for the glyph.
-  const icon = document.createElement("div");
 
-  icon.innerHTML = '<i class="fas fa-monument"></i>';
-
-  const faPin = new PinElement({
-    glyph: icon,
-    glyphColor: "#FFFFFF",
-    background: "#FFD514",
-    borderColor: "#ff8300",
-  });
-  const faMarker = new AdvancedMarkerElement({
-    map,
-    position: { lat:-26.838493, lng: 152.959481},  
-    content: faPin.element,
-    title: "Steve Irwin Monument",
-  });
 // a Marker for Where Steve Irwin Died
   const death = document.createElement("div");
 
