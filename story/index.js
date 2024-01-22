@@ -47,6 +47,42 @@ async function initMap() {
     title: "Steve Irwin's Hometown",
   });
 
+   // A marker using a Font Awesome icon for the glyph.
+  const icon = document.createElement("div");
+
+  icon.innerHTML = '<i class="fas fa-monument"></i>';
+
+  const faPin = new PinElement({
+    glyph: icon,
+    glyphColor: "#FFFFFF",
+    background: "#FFD514",
+    borderColor: "#ff8300",
+  });
+  const faMarker = new AdvancedMarkerElement({
+    map,
+    position: { lat:-26.838493, lng: 152.959481},  
+    content: faPin.element,
+    title: "Steve Irwin Monument",
+  });
+// a Marker for Where Steve Irwin Died
+  const death = document.createElement("div");
+
+  death.innerHTML = '<i class="fas fa-skull-crossbones"></i>';  
+
+  const faPin2 = new PinElement({
+    glyph: death,
+    glyphColor: "#FFFFFF",
+    background: "#FFD514",
+    borderColor: "#ff8300",
+  });
+  const faMarker2 = new AdvancedMarkerElement({
+    map,
+    position: { lat:-16.426215476647393,   lng: 145.7964803767105},       
+    content: faPin2.element,
+    title: "Site Where Steve Irwin Passed away",
+  });
+
+
 
 
   
