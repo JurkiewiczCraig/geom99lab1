@@ -15,7 +15,7 @@ async function initMap() {
   // A marker using a Font Awesome icon for the glyph.
   const icon = document.createElement("div");
 
-  icon.innerHTML = '<i class="fas fa-monument fa-lg"></i>';
+  icon.innerHTML = '<i class="fas fa-monument fa-2xl"></i>';
 
   const faPin = new PinElement({
     glyph: icon,
@@ -74,8 +74,8 @@ async function initMap() {
 
   const faPin3 = new PinElement({
     glyph: park,
-    glyphColor: "#FFFFFF",
-    background: "#FFD514",
+    glyphColor: "#008000",
+    background: "#FFFFFFF",
     borderColor: "#ff8300",
   });
   const faMarker3 = new AdvancedMarkerElement({
