@@ -121,7 +121,7 @@ async function initMap() {
       anchor: marker1,
       map,
     });
-
+});
 // a Marker for Where Steve Irwin Died
   const death = document.createElement("div");
 
@@ -179,6 +179,6 @@ async function initMap() {
 
 
   
-})
+}
 
 initMap();
