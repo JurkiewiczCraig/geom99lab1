@@ -2,18 +2,20 @@
 //https://github.com/googlemaps/js-samples/tree/main/samples/advanced-markers-graphics and
 //https://github.com/googlemaps/js-samples/tree/main/samples/infowindow-simple
 
-
+// creating an asynchronous function called initMap
 async function initMap() {
-  // Request needed libraries.
+  // funciton that waits for import of the google maps library before running
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
     "marker",
   );
+  // importing the place class from the google maps library
   const { Place } = await google.maps.importLibrary("places");
+  //centering the map 4504f8b37365c3d0
   const map = new Map(document.getElementById("map"), {
     center: { lat: -25.873943323960678, lng: 133.3551714855651 },   
     zoom: 4,
-    mapId: "4504f8b37365c3d0",
+    mapId: "Life Story of Steve Irwin",
   });
   const parser = new DOMParser();
 
