@@ -48,7 +48,7 @@ async function initMap() {
     ariaLabel: "Monument",
   });
   const marker = new google.maps.Marker({
-    position: { lat:-26.838493, lng: 152.959481}, 
+    position: {  lat: -26.678056, lng:153.118333}, 
     map,
     title: "Steve Irwin Monument",
   });
