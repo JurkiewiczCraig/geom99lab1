@@ -233,12 +233,13 @@ async function initMap() {
     '<div id="bodyContent">' +
     "<p> Australia Zoo is the world reknown zoo owned and operated by the Irwin Family." +
    "The zoo was first opened in the 1970s by Bob and Lyn Irwin and was where Steve first "+
-   "first fell in love with "+
-   
-    "Heritage Site.</p>" +
-    '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-    "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
-    "(last visited June 22, 2009).</p>" +
+   "first fell in love with animals with a special interest in crocodiles. "+
+   "Over the years as Steve Irwin gained notoriety and fame with his show The Crocodile Hunter " +
+   "him and his wife were able to expand the park, adding new features such as a safari and wildlife hopsital." +
+   "To this date the Australia Zoo has treated tens of thousands of injured animals, and it's current owner"+
+   "Terri Irwin has stated she will continue to expand the park and continue her late husbands legacy</p>" +
+    '<p><a href=" https://en.wikipedia.org/wiki/Australia_Zoo">'+
+   "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
   const infowindow4 = new google.maps.InfoWindow({
