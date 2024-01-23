@@ -178,7 +178,38 @@ async function initMap() {
     content: faPin3.element,
     title: "Steve Irwin's Wildlife Reserve/Park",
   });
+ const contentString3 =
+    '<div id="content">' +
+    '<div id="siteNotice">' +
+    "</div>" +
+    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<div id="bodyContent">' +
+    "<p>The land in upper queensland was gifted to the Irwin family after his passing" +
+    "as it was one of his favorite places in the world to visit.  He was fond of the " +
+    "large amount of crocodiles that were known to inhabit the area" +
+   "and was a haven for hundreds ofvarities of other plans and animals.  The area was " +
+   "at one point meant to be taken over by a mining corporation, but thanks to hundreds" +
+   "of thousands of signatures the land was able to be kept in its natural state" +
+   "and be used for scientific research and discovery in the meantime.</p>" +
+    '<p>Referemce: <a href="https://wildlifewarriors.org.au/conservation-projects/steve-irwin-wildlife-reserve/">' +</p>" +
+    "</div>" +
+    "</div>";
+  const infowindow3 = new google.maps.InfoWindow({
+    content: contentString3,
+    ariaLabel: "Wildlife Preserve",
+  });
+  const marker3 = new google.maps.Marker({
+    position: { lat: -12.376136610221534,   lng: 142.17760343955635  }, 
+    map,
+    title: "Wildlife Preserve",
+  });
 
+ marker3.addListener("click", () => {
+    infowindow3.open({
+      anchor: marker3,
+      map,
+    });
+  });
 // a Marker for Australia Zoo
   const zoo = document.createElement("div");
 
@@ -196,7 +227,7 @@ async function initMap() {
       content: faPin4.element,
     title: "Australia Zoo",
   });
- const contentString3 =
+ const contentString4 =
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
@@ -217,19 +248,19 @@ async function initMap() {
     "(last visited June 22, 2009).</p>" +
     "</div>" +
     "</div>";
-  const infowindow3 = new google.maps.InfoWindow({
-    content: contentString3,
+  const infowindow4 = new google.maps.InfoWindow({
+    content: contentString4,
     ariaLabel: "Australia Zoo",
   });
-  const marker3 = new google.maps.Marker({
+  const marker4 = new google.maps.Marker({
     position: {lat:  -26.83582338392587,   lng:  152.9631773673096 }, 
     map,
     title: "Australia Zoo",
   });
 
- marker3.addListener("click", () => {
-    infowindow3.open({
-      anchor: marker3,
+ marker4.addListener("click", () => {
+    infowindow4.open({
+      anchor: marker4,
       map,
     });
   });
