@@ -135,7 +135,7 @@ async function initMap() {
   const faPin2 = new PinElement({
     glyph: death,
     glyphColor: "#000000",
-    background: "#FFD514",
+    background: "#FFFFFF",
     borderColor: "#ff8300",
   });
   // placement of the icon on the map using lat and long
