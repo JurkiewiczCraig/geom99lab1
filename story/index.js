@@ -29,14 +29,14 @@ async function initMap() {
     background: "#FFD514",
     borderColor: "#ff8300",
   });
-  //placing the pin element using lat and long
+  // placing the pin element using lat and long
   const faMarker = new AdvancedMarkerElement({
     map,
     position: { lat: -26.678056, lng:153.118333},  
     content: faPin.element,
     title: "Steve Irwin Monument",
   });
-  //creating the content for the info window
+  // creating the content for the info window
   const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -70,23 +70,26 @@ async function initMap() {
   });
 
   
-// a Marker for Steve Irwin's home town
+// Creating the marker and info window for Steve Irwin's home town
+ //creating the variable for the icon
   const city = document.createElement("div");
-
+//adding the font awesome icon for city
   city.innerHTML = '<i class="fas fa-city"></i>';
-
+//stylizing the icon
   const faPin1 = new PinElement({
     glyph: city,
     glyphColor: "#FFFFFF",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
+  //placing the marker on the map
   const faMarker1 = new AdvancedMarkerElement({
     map,
     position: { lat:-37.89851809717057, lng: 145.31275265870013},     
     content: faPin1.element,
     title: "Steve Irwin's Hometown",
   });
+  //creating the content for the info window
  const contentString1 =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -103,10 +106,12 @@ async function initMap() {
    "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
+  //adding the content to the info window
   const infowindow1 = new google.maps.InfoWindow({
     content: contentString1,
     ariaLabel: "Hometown",
   });
+  //adding the marker for the info window
   const marker1 = new google.maps.Marker({
     position: {lat:-37.89851809717057, lng: 145.31275265870013}, 
     map,
@@ -119,23 +124,25 @@ async function initMap() {
       map,
     });
 });
-// a Marker for Where Steve Irwin Died
+// Creating a Marker and infowindow for Where Steve Irwin Passed away
   const death = document.createElement("div");
-
+//the marker icon from font awesome for where steve irwin apssed away
   death.innerHTML = '<i class="fas fa-skull-crossbones"></i>';  
-
+//stylizing the icon
   const faPin2 = new PinElement({
     glyph: death,
     glyphColor: "#000000",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
+  // placement of the icon on the map using lat and long
   const faMarker2 = new AdvancedMarkerElement({
     map,
     position: { lat:-16.426215476647393,   lng: 145.7964803767105},       
     content: faPin2.element,
     title: "Site Where Steve Irwin Passed away",
   });
+  // creating the content for the info window
  const contentString2 =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -149,16 +156,18 @@ async function initMap() {
     "buried in Australia Zoo in a private part of the park. " +  
     "</div>" +
     "</div>";
+  // creating an info window for the above content to be placed in
   const infowindow2 = new google.maps.InfoWindow({
     content: contentString2,
     ariaLabel: "Site of Death",
   });
+  //adding a marker that will be placed underneath the above marker for the infowindow
   const marker2 = new google.maps.Marker({
     position: {lat:-16.426215476647393,   lng: 145.7964803767105}, 
     map,
-    title: "Steve Irwin's Death",
+    title: "Site of Steve Irwin's Death",
   });
-
+// adding a click listener for the info window to pop up when the user clicks the icon
  marker2.addListener("click", () => {
     infowindow2.open({
       anchor: marker2,
@@ -167,23 +176,25 @@ async function initMap() {
   });
 
 
-// a Marker for Steve Irwin's Wildlife Reserve
+// Creating a marker and infowindow for the Steve Irwin Wildlife Reserve
   const park = document.createElement("div");
-
+//putting the font awesome icon of a tree into the above div element
   park.innerHTML = '<i class="fas fa-tree"></i>';  
-
+//stylizing the pin
   const faPin3 = new PinElement({
     glyph: park,
     glyphColor: "#008000",
     background: "#FFFFFF",
     borderColor: "#ff8300",
   });
+  //placing the pin on the map using the lat and long
   const faMarker3 = new AdvancedMarkerElement({
     map,
     position: { lat: -12.376136610221534,   lng: 142.17760343955635     },    
     content: faPin3.element,
     title: "Steve Irwin's Wildlife Reserve/Park",
   });
+  //creating the content for the infowindow
  const contentString3 =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -201,16 +212,18 @@ async function initMap() {
    "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
+  creating the info window itself and placing the above content inside
   const infowindow3 = new google.maps.InfoWindow({
     content: contentString3,
     ariaLabel: "Wildlife Preserve",
   });
+  // adding the location of the marker for the info window, to be placed below the graphic icon
   const marker3 = new google.maps.Marker({
     position: { lat: -12.376136610221534,   lng: 142.17760343955635  }, 
     map,
     title: "Wildlife Preserve",
   });
-
+adding a click listenter to the icon, so when a user clicks it the window pops up
  marker3.addListener("click", () => {
     infowindow3.open({
       anchor: marker3,
