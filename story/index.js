@@ -82,7 +82,7 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Site of Accidental Death</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Steve Irwin's Hometown</h1>' +
     '<div id="bodyContent">' +
     "<p><b>Upper Fern Tree Gully</b> was Steve Irwin's Hometown, he was born on February " +
     "22nd 1962 to Robert and Lyn Hakainsson.  Both parents were avid naturalists " +
