@@ -91,7 +91,7 @@ async function initMap() {
     " close attention to the crocodiles.  He is reported to have wrestled his first crocodile" +
     "at the tender age of nine (while under his fathers supervision).</p>" +
     '<p><a href="https://en.wikipedia.org/wiki/Steve_Irwin">'+
-   "Click Here for Reference Link"</a></p>" +
+   "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
   const infowindow1 = new google.maps.InfoWindow({
