@@ -11,12 +11,13 @@ async function initMap() {
   );
   // importing the place class from the google maps library
   const { Place } = await google.maps.importLibrary("places");
-  //centering the map 4504f8b37365c3d0
+  //centering the map on a lat and long
   const map = new Map(document.getElementById("map"), {
     center: { lat: -25.873943323960678, lng: 133.3551714855651 },   
     zoom: 4,
     mapId: "Life Story of Steve Irwin",
   });
+
   const parser = new DOMParser();
 
   // Creating a marker and info window for the Steve Irwin Monument, icon was taken from Font Awesome
@@ -31,7 +32,7 @@ async function initMap() {
     background: "#FFD514",
     borderColor: "#ff8300",
   });
-  // placing the pin element using lat and long
+  // placing the icon  using lat and long
   const faMarker = new AdvancedMarkerElement({
     map,
     position: { lat: -26.678056, lng:153.118333},  
@@ -73,7 +74,7 @@ async function initMap() {
 
   
 // Creating the marker and info window for Steve Irwin's home town
- //creating the variable for the icon
+ //creating the div for the icon
   const city = document.createElement("div");
 //adding the font awesome icon for city
   city.innerHTML = '<i class="fas fa-city"></i>';
@@ -84,7 +85,7 @@ async function initMap() {
     background: "#FFD514",
     borderColor: "#ff8300",
   });
-  //placing the marker on the map
+  //placing the icon on the map
   const faMarker1 = new AdvancedMarkerElement({
     map,
     position: { lat:-37.89851809717057, lng: 145.31275265870013},     
@@ -113,7 +114,7 @@ async function initMap() {
     content: contentString1,
     ariaLabel: "Hometown",
   });
-  //adding the marker for the info window
+  //adding the marker for the info window, marker will be placed below the font awesome icon
   const marker1 = new google.maps.Marker({
     position: {lat:-37.89851809717057, lng: 145.31275265870013}, 
     map,
@@ -126,9 +127,9 @@ async function initMap() {
       map,
     });
 });
-// Creating a Marker and infowindow for Where Steve Irwin Passed away
+// Creating a div and infowindow for Where Steve Irwin Passed away
   const death = document.createElement("div");
-//the marker icon from font awesome for where steve irwin apssed away
+//putting the icon into the div
   death.innerHTML = '<i class="fas fa-skull-crossbones"></i>';  
 //stylizing the icon
   const faPin2 = new PinElement({
@@ -163,7 +164,7 @@ async function initMap() {
     content: contentString2,
     ariaLabel: "Site of Death",
   });
-  //adding a marker that will be placed underneath the above marker for the infowindow
+  //adding a icon that will be placed underneath the above icon for the infowindow
   const marker2 = new google.maps.Marker({
     position: {lat:-16.426215476647393,   lng: 145.7964803767105}, 
     map,
