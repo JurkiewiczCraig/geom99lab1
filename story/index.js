@@ -89,11 +89,7 @@ async function initMap() {
     "and decided to open up their own wildlife park where Steve quickly took a liking" +
     "to and spent most of his free time spending time with the animals, paying particular"+
     " close attention to the crocodiles.  He is reported to have wrestled his first crocodile" +
-    "at the tender age of nine (while under his fathers supervision) " +
-    "sacred to the Pitjantjatjara and Yankunytjatjara, the " +
-    "Aboriginal people of the area. It has many springs, waterholes, " +
-    "rock caves and ancient paintings. Uluru is listed as a World " 
-    "Heritage Site.</p>" +
+    "at the tender age of nine (while under his fathers supervision).</p>" +
     '<p>Reference: <a href="https://en.wikipedia.org/wiki/Steve_Irwin">'</p>" +
     "</div>" +
     "</div>";
