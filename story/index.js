@@ -179,7 +179,7 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Steve Irwin's Wildlife Reserve</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">The Steve Irwin Wildlife Reserve</h1>' +
     '<div id="bodyContent">' +
     "<p>The land in upper queensland was gifted to the Irwin family after his passing" +
     "as it was one of his favorite places in the world to visit.  He was fond of the " +
