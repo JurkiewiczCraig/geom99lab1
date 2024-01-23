@@ -214,7 +214,7 @@ async function initMap() {
    "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
-  creating the info window itself and placing the above content inside
+  //creating the info window itself and placing the above content inside
   const infowindow3 = new google.maps.InfoWindow({
     content: contentString3,
     ariaLabel: "Wildlife Preserve",
