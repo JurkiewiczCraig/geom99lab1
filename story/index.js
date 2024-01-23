@@ -94,7 +94,7 @@ async function initMap() {
     "Aboriginal people of the area. It has many springs, waterholes, " +
     "rock caves and ancient paintings. Uluru is listed as a World " +
     "Heritage Site.</p>" +
-    '<p>Attribution: Steve Irwin's early life, <a href="https://en.wikipedia.org/wiki/Steve_Irwin">' +
+    '<p>Attribution: Steve Irwins early life, <a href="https://en.wikipedia.org/wiki/Steve_Irwin">' +
     </p>" +
     "</div>" +
     "</div>";
@@ -185,7 +185,7 @@ async function initMap() {
     map,
     position: { lat: -12.376136610221534,   lng: 142.17760343955635     },    
     content: faPin3.element,
-    title: "Steve Irwins Wildlife Reserve/Park",
+    title: "Steve Irwin's Wildlife Reserve/Park",
   });
 
 // a Marker for Australia Zoo
