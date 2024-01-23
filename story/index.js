@@ -94,8 +94,7 @@ async function initMap() {
     "Aboriginal people of the area. It has many springs, waterholes, " +
     "rock caves and ancient paintings. Uluru is listed as a World " 
     "Heritage Site.</p>" +
-    '<p>Reference: <a href="https://en.wikipedia.org/wiki/Steve_Irwin">' +
-    </p>" +
+    '<p>Reference: <a href="https://en.wikipedia.org/wiki/Steve_Irwin">'</p>" +
     "</div>" +
     "</div>";
   const infowindow1 = new google.maps.InfoWindow({
