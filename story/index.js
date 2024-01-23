@@ -63,7 +63,7 @@ async function initMap() {
     map,
     title: "Steve Irwin Monument",
   });
-//adding a click listener for the info window to open when the user clicks the icon
+//adding the click listener for the info window to open when the user clicks the icon
  marker.addListener("click", () => {
     infowindow.open({
       anchor: marker,
