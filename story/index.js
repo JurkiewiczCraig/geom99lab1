@@ -1,3 +1,8 @@
+// inspiration for this code was taken from 
+//https://github.com/googlemaps/js-samples/tree/main/samples/advanced-markers-graphics and
+//https://github.com/googlemaps/js-samples/tree/main/samples/infowindow-simple
+
+
 async function initMap() {
   // Request needed libraries.
   const { Map } = await google.maps.importLibrary("maps");
@@ -12,23 +17,26 @@ async function initMap() {
   });
   const parser = new DOMParser();
 
-  // A marker using a Font Awesome icon for the glyph.
+  // Creating a marker and info window for the Steve Irwin Monument, icon was taken from Font Awesome
+  
   const icon = document.createElement("div");
-
+// defining the monument icon
   icon.innerHTML = '<i class="fas fa-monument"></i>';
-
+// stylizing the icon
   const faPin = new PinElement({
     glyph: icon,
     glyphColor: "#FFFFFF",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
+  //placing the pin element using lat and long
   const faMarker = new AdvancedMarkerElement({
     map,
     position: { lat: -26.678056, lng:153.118333},  
     content: faPin.element,
     title: "Steve Irwin Monument",
   });
+  //creating the content for the info window
   const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -39,20 +47,21 @@ async function initMap() {
     "Steve Irwin's dedication to conservation, education and his family."+
     "The statue depicts Irwin, with his children Bindi, Robert and holding "+ 
   "a crocodile.  The monument is located right by the beach in Mooloolaba </p>" +
-   
-    
+       
     "</div>" +
     "</div>";
+  //creating variables for the info windodw to hold the content
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
     ariaLabel: "Monument",
   });
+  //placement fo the market for the info window, to be placed behind the font awesome marker
   const marker = new google.maps.Marker({
     position: {  lat: -26.678056, lng:153.118333}, 
     map,
     title: "Steve Irwin Monument",
   });
-
+//adding a click listener for the info window to open when the user clicks the icon
  marker.addListener("click", () => {
     infowindow.open({
       anchor: marker,
