@@ -166,7 +166,7 @@ async function initMap() {
   const faPin3 = new PinElement({
     glyph: park,
     glyphColor: "#008000",
-    background: "#FFFFFFF",
+    background: "#FFFFFF",
     borderColor: "#ff8300",
   });
   const faMarker3 = new AdvancedMarkerElement({
