@@ -179,6 +179,6 @@ async function initMap() {
 
 
   
-}
+})
 
 initMap();
