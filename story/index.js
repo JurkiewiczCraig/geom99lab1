@@ -39,7 +39,7 @@ async function initMap() {
     "Steve Irwin's dedication to conservation, education and his family."+
     "The statue depicts Irwin, with his children Bindi, Robert and holding "+ 
   "a crocodile.  The monument is located right by the beach in Mooloolaba </p>" +
-    '<p>Attribution: Mooloolaba, Queensland +
+   
     
     "</div>" +
     "</div>";
