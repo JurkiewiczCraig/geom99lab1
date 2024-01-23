@@ -225,6 +225,7 @@ async function initMap() {
     position: { lat: -12.376136610221534,   lng: 142.17760343955635  }, 
     map,
     title: "Wildlife Preserve",
+    color: "#008000",
   });
 //adding a click listenter to the icon, so when a user clicks it the window pops up
  marker3.addListener("click", () => {
