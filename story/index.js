@@ -82,7 +82,7 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Site of Accidental Death</h1>' +
     '<div id="bodyContent">' +
     "<p><b>Upper Fern Tree Gully</b> was Steve Irwin's Hometown, he was born on February " +
     "22nd 1962 to Robert and Lyn Hakainsson.  Both parents were avid naturalists " +
@@ -131,7 +131,7 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Site of Accidental Death</h1>' +
     '<div id="bodyContent">' +
     "<p>On September 4th 2006, Steve Irwin Trajically passed away while filmining " +
     "for a new documentery series called Oceans Deadliest." +
@@ -179,7 +179,7 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Steve Irwin's Wildlife Reserve</h1>' +
     '<div id="bodyContent">' +
     "<p>The land in upper queensland was gifted to the Irwin family after his passing" +
     "as it was one of his favorite places in the world to visit.  He was fond of the " +
@@ -229,17 +229,12 @@ async function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Australia Zoo</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large " +
-    "sandstone rock formation in the southern part of the " +
-    "Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) " +
-    "south west of the nearest large town, Alice Springs; 450&#160;km " +
-    "(280&#160;mi) by road. Kata Tjuta and Uluru are the two major " +
-    "features of the Uluru - Kata Tjuta National Park. Uluru is " +
-    "sacred to the Pitjantjatjara and Yankunytjatjara, the " +
-    "Aboriginal people of the area. It has many springs, waterholes, " +
-    "rock caves and ancient paintings. Uluru is listed as a World " +
+    "<p> Australia Zoo is the world reknown zoo owned and operated by the Irwin Family." +
+   "The zoo was first opened in the 1970s by Bob and Lyn Irwin and was where Steve first "+
+   "first fell in love with "+
+   
     "Heritage Site.</p>" +
     '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
     "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
