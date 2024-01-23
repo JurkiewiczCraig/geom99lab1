@@ -225,30 +225,33 @@ async function initMap() {
     map,
     title: "Wildlife Preserve",
   });
-adding a click listenter to the icon, so when a user clicks it the window pops up
+//adding a click listenter to the icon, so when a user clicks it the window pops up
  marker3.addListener("click", () => {
     infowindow3.open({
       anchor: marker3,
       map,
     });
   });
-// a Marker for Australia Zoo
+// creating a marker and info windower for Australia Zoo
+  //creating a div element for the marker
   const zoo = document.createElement("div");
-
+//turning the marker into the font awesome elemnt
   zoo.innerHTML = '<i class="fas fa-tree"></i>';  
-
+//stylizing the marker elemnt
   const faPin4 = new PinElement({
     glyph: zoo,
     glyphColor: "#FFFFFF",
     background: "#FFD514",
     borderColor: "#ff8300",
   });
+  //placing the marker using lat and long
   const faMarker4 = new AdvancedMarkerElement({
     map,
     position: { lat:  -26.83582338392587,   lng:  152.9631773673096     },   
       content: faPin4.element,
     title: "Australia Zoo",
   });
+  //creating the content for the info window
  const contentString4 =
     '<div id="content">' +
     '<div id="siteNotice">' +
@@ -266,16 +269,18 @@ adding a click listenter to the icon, so when a user clicks it the window pops u
    "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
+  //creating the info window to store the content in and adding a lab
   const infowindow4 = new google.maps.InfoWindow({
     content: contentString4,
     ariaLabel: "Australia Zoo",
   });
+  //playing the marker for the info window below the graphic marker
   const marker4 = new google.maps.Marker({
     position: {lat:  -26.83582338392587,   lng:  152.9631773673096 }, 
     map,
     title: "Australia Zoo",
   });
-
+//creating a click listener for the info window to open up when the user clicks on the marker
  marker4.addListener("click", () => {
     infowindow4.open({
       anchor: marker4,
