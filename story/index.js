@@ -25,7 +25,7 @@ async function initMap() {
   });
   const faMarker = new AdvancedMarkerElement({
     map,
-    position: { lat:-26.838493, lng: 152.959481},  
+    position: { lat: -26.678056, lng:153.118333},  
     content: faPin.element,
     title: "Steve Irwin Monument",
   });
