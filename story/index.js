@@ -92,7 +92,7 @@ async function initMap() {
     "at the tender age of nine (while under his fathers supervision) " +
     "sacred to the Pitjantjatjara and Yankunytjatjara, the " +
     "Aboriginal people of the area. It has many springs, waterholes, " +
-    "rock caves and ancient paintings. Uluru is listed as a World " +
+    "rock caves and ancient paintings. Uluru is listed as a World " 
     "Heritage Site.</p>" +
     '<p>Reference: <a href="https://en.wikipedia.org/wiki/Steve_Irwin">' +
     </p>" +
