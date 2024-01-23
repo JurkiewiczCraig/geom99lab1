@@ -188,7 +188,8 @@ async function initMap() {
    "at one point meant to be taken over by a mining corporation, but thanks to hundreds" +
    "of thousands of signatures the land was able to be kept in its natural state" +
    "and be used for scientific research and discovery in the meantime.</p>" +
-    '<p>Referemce: <a href="https://wildlifewarriors.org.au/conservation-projects/steve-irwin-wildlife-reserve/">' +</p>" +
+      '<p><a href="https://australiazoo.com.au/support-wildlife/properties/steve-irwin-wildlife-reserve">'+
+   "Click Here for Reference Link </a> </p>" +
     "</div>" +
     "</div>";
   const infowindow3 = new google.maps.InfoWindow({
