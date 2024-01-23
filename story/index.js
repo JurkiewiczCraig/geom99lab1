@@ -35,12 +35,12 @@ async function initMap() {
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Monument To Steve Irwin</h1>' +
     '<div id="bodyContent">' +
-    "<p>A monument to Steve Irwin was built here in 2007, built to recognize Steve Irwin's dedication to conservation, education and his family.  The statue 
-    depicts Irwin, with his two children, Bindi and Robert "while" holding a crocodile.  The monument is located right by the beach in 
-    Mooloolaba </p>" +
-    '<p>Attribution: Mooloolaba , <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-    "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
-    "(last visited June 22, 2009).</p>" +
+    "<p>A monument to Steve Irwin was built here in 2007, built to recognize" +
+    "Steve Irwin's dedication to conservation, education and his family."+
+    "The statue depicts Irwin, with his children Bindi, Robert and holding "+ 
+  "a crocodile.  The monument is located right by the beach in Mooloolaba </p>" +
+    '<p>Attribution: Mooloolaba, Queensland +
+    
     "</div>" +
     "</div>";
   const infowindow = new google.maps.InfoWindow({
