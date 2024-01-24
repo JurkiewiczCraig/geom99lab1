@@ -29,8 +29,8 @@ async function initMap() {
   const faPin = new PinElement({
     glyph: icon,
     glyphColor: "#FFFFFF",
-    background: "#FFD514",
-    borderColor: "#ff8300",
+    background: "#00008b ",
+    borderColor: "#00008b ",
   });
   // placing the icon  using lat and long
   const faMarker = new AdvancedMarkerElement({
