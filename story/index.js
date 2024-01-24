@@ -28,9 +28,9 @@ async function initMap() {
 // stylizing the icon
   const faPin = new PinElement({
     glyph: icon,
-    glyphColor: "#FFFFFF",
+    glyphColor: "#013220",
     background: "#00008b ",
-    borderColor: "#00008b ",
+    
   });
   // placing the icon  using lat and long
   const faMarker = new AdvancedMarkerElement({
@@ -82,8 +82,8 @@ async function initMap() {
   const faPin1 = new PinElement({
     glyph: city,
     glyphColor: "#FFFFFF",
-    background: "#FFD514",
-    borderColor: "#ff8300",
+    background: "#013220",
+     
   });
   //placing the icon on the map
   const faMarker1 = new AdvancedMarkerElement({
@@ -135,8 +135,8 @@ async function initMap() {
   const faPin2 = new PinElement({
     glyph: death,
     glyphColor: "#000000",
-    background: "#FFFFFF",
-    borderColor: "#ff8300",
+    background: "#013220",
+ 
   });
   // placement of the icon on the map using lat and long
   const faMarker2 = new AdvancedMarkerElement({
@@ -187,8 +187,8 @@ async function initMap() {
   const faPin3 = new PinElement({
     glyph: park,
     glyphColor: "#008000",
-    background: "#FFFFFF",
-    borderColor: "#ff8300",
+    background: "#013220",
+  
   });
   //placing the pin on the map using the lat and long
   const faMarker3 = new AdvancedMarkerElement({
@@ -225,7 +225,7 @@ async function initMap() {
     position: { lat: -12.376136610221534,   lng: 142.17760343955635  }, 
     map,
     title: "Wildlife Preserve",
-     borderColor:  "#008000",
+     
   });
 //adding a click listenter to the icon, so when a user clicks it the window pops up
  marker3.addListener("click", () => {
@@ -243,8 +243,8 @@ async function initMap() {
   const faPin4 = new PinElement({
     glyph: zoo,
     glyphColor: "#FFFFFF",
-    background: "#FFD514",
-    borderColor: "#ff8300",
+    background: "#013220",
+    
   });
   //placing the marker using lat and long
   const faMarker4 = new AdvancedMarkerElement({
