@@ -28,7 +28,7 @@ async function initMap() {
 // stylizing the icon
   const faPin = new PinElement({
     glyph: icon,
-    glyphColor: "#013220",
+    glyphColor: "#FFFFFF",
     background: "#00008b ",
     
   });
@@ -186,7 +186,7 @@ async function initMap() {
 //stylizing the pin
   const faPin3 = new PinElement({
     glyph: park,
-    glyphColor: "#008000",
+    glyphColor: "#FFFFFF",
     background: "#013220",
   
   });
