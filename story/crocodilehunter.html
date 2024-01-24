@@ -1,23 +1,25 @@
 <!DOCTYPE html>
+/* inspiration for the design was taken from 
+https://github.com/googlemaps/js-samples/tree/main/samples/advanced-markers-graphics
+https://github.com/googlemaps/js-samples/tree/main/samples/infowindow-simple */
   <head>
-    <title>Advanced Markers Using Graphics</title>
+    <title>A life Story of Steve Irwin
+    </title>
+    /* using polyfill to allow the website to be compaitible with older browsers */
+    /* using font awesome graphics to stylize the markers */
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
 
- 
+ /* linking the java code to the webpage */
     <script type="module" src="./index.js"></script>
     <style>
-/* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
+
+      /* using a height of 100% so the map takes up the entire page */
 #map {
   height: 100%;
 }
 
-/* 
- * Optional: Makes the sample page fill the window. 
- */
+ 
 html,
 body {
   height: 100%;
@@ -29,6 +31,7 @@ body {
     </style>
   </head>
   <body>
+    /* adding the div which contains all the map data and information into the web page */
     <div id="map"></div>
 
     <!-- prettier-ignore -->
