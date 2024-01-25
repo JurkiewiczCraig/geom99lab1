@@ -28,8 +28,8 @@ async function initMap() {
 // stylizing the icon
   const faPin = new PinElement({
     glyph: icon,
-    glyphColor: "#FFFFFF",
-    background: "#00008b ",
+      glyphColor: "#FFFFFF",
+    background: "#013220",
     
   });
   // placing the icon  using lat and long
@@ -186,7 +186,7 @@ async function initMap() {
 //stylizing the pin
   const faPin3 = new PinElement({
     glyph: park,
-    glyphColor: "#FFFFFF",
+       glyphColor: "#FFFFFF",
     background: "#013220",
   
   });
@@ -242,7 +242,7 @@ async function initMap() {
 //stylizing the marker elemnt
   const faPin4 = new PinElement({
     glyph: zoo,
-    glyphColor: "#FFFFFF",
+       glyphColor: "#FFFFFF",
     background: "#013220",
     
   });
