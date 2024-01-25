@@ -81,7 +81,7 @@ async function initMap() {
 //stylizing the icon
   const faPin1 = new PinElement({
     glyph: city,
-    glyphColor: "#FFFFFF",
+   glyphColor: "#FFFFFF",
     background: "#013220",
      
   });
@@ -134,7 +134,7 @@ async function initMap() {
 //stylizing the icon
   const faPin2 = new PinElement({
     glyph: death,
-    glyphColor: "#000000",
+   glyphColor: "#FFFFFF",
     background: "#013220",
  
   });
