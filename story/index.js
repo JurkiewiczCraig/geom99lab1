@@ -58,7 +58,7 @@ async function initMap() {
     content: contentString,
     ariaLabel: "Monument",
   });
-  //placement fo the market for the info window, to be placed behind the font awesome marker
+  //placement fo the marker for the info window, to be placed behind the font awesome marker
   const marker = new google.maps.Marker({
     position: {  lat: -26.678056, lng:153.118333}, 
     map,
