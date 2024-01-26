@@ -32,7 +32,7 @@ async function initMap() {
     background: "#013220",
     
   });
-  // placing the icon  using lat and long
+  // placing the icon  using lat and long 
   const faMarker = new AdvancedMarkerElement({
     map,
     position: { lat: -26.678056, lng:153.118333},  
@@ -53,12 +53,12 @@ async function initMap() {
        
     "</div>" +
     "</div>";
-  //creating variables for the info windodw to hold the content
+  //creating variables for the info window to hold the content
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
     ariaLabel: "Monument",
   });
-  //placement fo the marker for the info window, to be placed behind the font awesome marker
+  //placement of the marker for the info window, to be placed behind the font awesome marker
   const marker = new google.maps.Marker({
     position: {  lat: -26.678056, lng:153.118333}, 
     map,
@@ -127,7 +127,7 @@ async function initMap() {
       map,
     });
 });
-// Creating a div and infowindow for Where Steve Irwin Passed away
+// Creating a div and infowindo for Where Steve Irwin Passed away
   const death = document.createElement("div");
 //putting the icon into the div
   death.innerHTML = '<i class="fas fa-skull-crossbones"></i>';  
@@ -152,10 +152,10 @@ async function initMap() {
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Site of Accidental Death</h1>' +
     '<div id="bodyContent">' +
-    "<p>On September 4th 2006, Steve Irwin Trajically passed away while filmining " +
-    "for a new documentery series called Oceans Deadliest." +
+    "<p>On September 4th 2006, Steve Irwin Tragically passed away while filming  " +
+    "for a new documentary series called Oceans Deadliest." +
     "when a short-tailed stingray attacked him and stung him through the heart." +
-    "His funeral was held on the 9th of September and he is currenlty " +
+    "His funeral was held on the 9th of September and he is currently " +
     "buried in Australia Zoo in a private area of the park. " +  
     "</div>" +
     "</div>";
