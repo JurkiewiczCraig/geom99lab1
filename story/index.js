@@ -17,7 +17,7 @@ async function initMap() {
     zoom: 4,
     mapId: "Life Story of Steve Irwin",
   });
-
+//below line of code allows me to pass html through the java 
   const parser = new DOMParser();
 
   // Creating a marker and info window for the Steve Irwin Monument, icon was taken from Font Awesome
