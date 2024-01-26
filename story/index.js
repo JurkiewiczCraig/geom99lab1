@@ -9,7 +9,7 @@ async function initMap() {
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
     "marker",
   );
-  // importing the place class from the google maps library
+  // importing the place class from the google maps library 
   const { Place } = await google.maps.importLibrary("places");
   //centering the map on the eastern half of Australia and 
   const map = new Map(document.getElementById("map"), {
