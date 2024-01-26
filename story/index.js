@@ -13,7 +13,7 @@ async function initMap() {
   const { Place } = await google.maps.importLibrary("places");
   //centering the map on the eastern half of Australia and 
   const map = new Map(document.getElementById("map"), {
- center: { lat:   -27.77305732337878,lng: 145.19526072243173 },     
+ center: { lat:  -23.462843928706892, lng:   147.15919739739974  },      
     zoom: 4,
     mapId: "Life Story of Steve Irwin",
   });
