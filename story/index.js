@@ -102,7 +102,7 @@ async function initMap() {
     "<p><b>Upper Fern Tree Gully</b> was Steve Irwin's Hometown, he was born on February " +
     "22nd 1962 to Robert and Lyn Hakainsson.  Both parents were avid naturalists " +
     "and decided to open up their own wildlife park where Steve quickly took a liking" +
-    "to and spent most of his free time spending time with the animals, paying particular"+
+    "to and spent most of his free time with the animals, paying particular"+
     " close attention to the crocodiles.  He is reported to have wrestled his first crocodile" +
     "at the tender age of nine (while under his fathers supervision).</p>" +
     '<p><a href="https://en.wikipedia.org/wiki/Steve_Irwin">'+
@@ -156,7 +156,7 @@ async function initMap() {
     "for a new documentery series called Oceans Deadliest." +
     "when a short-tailed stingray attacked him and stung him through the heart." +
     "His funeral was held on the 9th of September and he is currenlty " +
-    "buried in Australia Zoo in a private part of the park. " +  
+    "buried in Australia Zoo in a private area of the park. " +  
     "</div>" +
     "</div>";
   // creating an info window for the above content to be placed in
@@ -208,9 +208,9 @@ async function initMap() {
     "as it was one of his favorite places in the world to visit.  He was fond of the " +
     "large amount of crocodiles that were known to inhabit the area" +
    "and was a haven for hundreds ofvarities of other plans and animals.  The area was " +
-   "at one point meant to be taken over by a mining corporation, but thanks to hundreds" +
+   "at one point to be taken over by a mining corporation, but thanks to hundreds" +
    "of thousands of signatures the land was able to be kept in its natural state" +
-   "and be used for scientific research and discovery in the meantime.</p>" +
+   "and be used for scientific research and preservation in the meantime.</p>" +
       '<p><a href="https://australiazoo.com.au/support-wildlife/properties/steve-irwin-wildlife-reserve">'+
    "Click Here for Reference Link </a> </p>" +
     "</div>" +
@@ -264,7 +264,7 @@ async function initMap() {
    "The zoo was first opened in the 1970s by Bob and Lyn Irwin and was where Steve first "+
    "first fell in love with animals with a special interest in crocodiles. "+
    "Over the years as Steve Irwin gained notoriety and fame with his show The Crocodile Hunter " +
-   "him and his wife were able to expand the park, adding new features such as a safari and wildlife hopsital." +
+   "Steve and his wife were able to expand the park, adding new features such as a safari and wildlife hopsital." +
    "To this date the Australia Zoo has treated tens of thousands of injured animals, and it's current owner"+
    "Terri Irwin has stated she will continue to expand the park and continue her late husbands legacy</p>" +
     '<p><a href=" https://en.wikipedia.org/wiki/Australia_Zoo">'+
